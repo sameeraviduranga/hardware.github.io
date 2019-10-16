@@ -1,0 +1,129 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	
+	box-sizing: border-box;
+}
+body{
+	background: url("../harware tools images/tools-690038_1920.jpg");
+	background-size: cover;
+	margin: 0;
+}
+.topnav{
+	
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	background: rgba(82,72,72,1.00);
+}
+
+ul.topnav li,ul.topnav li.submenu{
+	
+	display: inline-block;
+}
+
+ul.topnav li a,ul.topnav li a.catagory_btn{
+	
+	display: block;
+	text-decoration: none;
+	color: white;
+	padding:15px 30px;
+}
+ul.topnav li a:hover,ul.topnav li a.catagory_btn:hover{
+	
+	background:rgba(11,148,14,1.00);
+	color: red;
+}
+div.content{
+	
+	position: absolute;
+	background:rgba(11,148,14,1.00);
+	width: 200px;
+	padding: 5px;
+	border-radius: 2px;
+	display: none;
+	box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.9);
+	
+}
+div.content a{
+	
+	border-bottom: 1px solid white;
+}
+div.content a:last-child{
+	
+	border-bottom: none;
+	
+}
+
+ul.topnav li.home:hover div.homcont{
+	
+	display: block;
+	
+}
+ul.topnav li.cat:hover div.catagory{
+	
+	display: block;
+	
+}
+ul li.brand:hover div.homcont{
+	
+	display: block;
+	
+	
+}
+div.content li{
+	
+	display: inline-block;
+}
+ul.brandnav{
+	
+	position: absolute;
+	margin: 0;
+	padding: 0;
+	width: 200px;
+	background:rgba(11,148,14,1.00);
+	display: none;
+}
+ul.brandnav li{
+	
+	display: block;
+	padding: 5px;
+}
+ul.brandnav li a{
+	
+	display: block;
+	border-bottom: 1px solid white;
+}
+
+ul.topnav li.brand:hover ul.brandnav{
+	
+	display: block;
+}
+ul.brandnav li.submenu-brand1:hover div.brand1{
+	top:0px;
+	left: 200px;
+	display: block;
+}
+ul.brandnav li.submenu-brand2:hover div.brand2{
+	top:60px;
+	left: 200px;
+	display: block;
+}
+ul.brandnav li.submenu-brand3:hover div.brand3{
+	top:120px;
+	left: 200px;
+	display: block;
+}
+ul.brandnav li.submenu-brand4:hover div.brand4{
+	top:180px;
+	left: 200px;
+	display: block;
+}
+ul.brandnav li.submenu-brand5:hover div.brand5{
+	top:240px;
+	left: 200px;
+	display: block;
+}
+
+
+
